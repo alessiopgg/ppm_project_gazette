@@ -1,1 +1,231 @@
-<link rel="stylesheet" href="styles.css">
+body{
+    font-family: "Playfair Display", serif;
+    text-decoration: none;
+    font-size: 22px;
+    line-height: 1.6;
+    text-transform: none;
+    font-weight: 400;
+    background-color: #f5f5f5;
+    color: #3A3A3A;
+
+}
+h3{
+    font-size: 20px;
+    line-height: 1.2em;
+    font-weight: 400;
+    text-transform: none;
+}
+.navbar-nav{
+    font-family: "Playfair Display", serif;
+    color: #222222;
+    font-size: 15px;
+}
+.nav-item{
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.main-title{
+    color:#222222;
+    text-decoration: none;
+    font-size:55px ;
+}
+.description{
+    color: #757575;
+    font-size: 15px;
+    margin: auto;
+}
+header{
+    padding: 30px 40px 25px;
+}
+.second-navbar .navbar-nav{
+    color:#FFFFFF;
+}
+.container-inside {
+    margin-left: 407px;
+    margin-right:407px;
+    padding: 35px;
+}
+.container-inside h3 {
+  font-size: 20px;
+    color: #3A3A3A;
+    margin: 0px 0px 20px;
+}
+
+.container-inside .col{
+    margin:0px 0px 33px;
+    padding: 0px 10px;
+}
+.section3 .container text-center{
+    margin: 0px 173.3px;
+    padding: 40px 35px;
+}
+.section3 .text-center a{
+    font-size: 30px;
+    text-decoration: none;
+    color: #222222;
+}
+.section3 .text-start-inside{
+    font-size: 14.3px;
+    color: #00000080;
+    margin:0px 0px 20px;
+}
+.section3 .text-start-inside a{
+    font-size: 14.3px;
+    color: #00000080;
+}
+
+.text-start img{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+.container-inside h2{
+    margin:0px 0px 0px;
+}
+.section3 .text-center a{
+    padding: 0px 0px 0px;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl{
+    padding: 0px 0px ;
+    margin-bottom: 30px;
+}
+
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled){
+    padding: 8px 15px;
+    font-size: 17.6px;
+    border: 2px solid #222;
+}
+.text-start-inside{
+    font-size: 14.3px!important;
+    color: #00000080;
+}
+.text-start-inside a {
+    font-size: 14.3px!important;
+    color: #00000080;
+}
+.container.text-start h2 {
+    margin-top: 35px;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+a, button, input {
+    transition: color .1s ease-in-out, background-color .1s ease-in-out;
+}
+a{
+    color: #222222;
+    text-decoration: none;
+}
+
+.section4 .container-inside h2 {
+    font-size: 30px;
+
+}
+.section4 .container-inside a {
+    text-decoration: none;
+
+}
+.container-inside-small{
+    margin-bottom: 35px;
+    font-size: 14.3px!important;
+}
+
+.section3 .container-inside .col-8 p{
+    font-size: 14.3px!important;
+}
+.second-title h2 {
+    margin: 0px 0px 0px;
+    font-size: 30px;
+}
+.section5 .second-title{
+    margin-bottom: 20px;
+}
+.section5 p{
+    font-size: 17.6px!important;
+}
+.section2{
+    background-image: url("image/nhgazette-hero.jpg");
+}
+.section6{
+    background-image:linear-gradient(0deg, rgba(34, 34, 34, 0.69), rgba(34, 34, 34, 0.69)), url("image/nh-gazette-video-callout.jpg");
+    background-size: cover;
+    color: #FFFFFF;
+}
+.section6 .container-inside{
+    padding: 100px 35px;
+    margin: 0px 71.7px;
+}
+.section6 h2{
+    font-size: 30px;
+    margin-bottom:20px;
+}
+.section6 p{
+    font-size: 22px;
+}
+.selection8{
+    background-color: #222222;
+}
+.selection7 img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+.selection8 p{
+    font-size: 22px;
+    color: #FFFFFF;
+}
+.selection9 a{
+    color: #222222;
+}
+.footer-container{
+    padding: 60px 40px 40px;
+    background: #D6D6D6;
+    background-image:url("image/tide-web.png");
+    background-repeat: repeat-x;
+    background-size: 100% auto;
+    background-position: top;
+
+}
+footer{
+    font-size: 15px;
+    background: #222222;
+    padding: 20px;
+
+}
+footer p{
+    color: #FFFFFF;
+}
+.footer-container .col{
+    font-size: 17px;
+    margin: 0px 0px 12px;
+    padding: 0px 0px 0px 40px;
+}
+.footer-container h2{
+    font-size: 20px;
+    color: #000000;
+    margin: 0px 0px 25px!important;
+}
+.footer-container li{
+    padding: 0px 0px 5px;
+}
+.footer-container .form-control{
+    padding: 10px 15px;
+    background: #FAFAFA;
+    font-size: 22px;
+    box-sizing: border-box;
+    width: 195px;
+    margin-bottom: 17px;
+}
+
+
+
+
