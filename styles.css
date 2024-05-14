@@ -30,7 +30,7 @@ p{
 
 a{
     color: #222222;
-    text-decoration: none;
+    text-decoration: none!important;
 }
 
 img{
@@ -38,24 +38,73 @@ img{
     height: auto;
     display: block;
     margin: auto;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+
 }
+
 
 /* Navbar */
 
 .first-navbar a{
     color: #222222!important;
     font-size:15px;
+
 }
 .second-navbar {
     background: #222222;
-    font-size: 13px;
+    font-size: 13px!important;
     color:#FFFFFF;
 }
+.second-navbar .navbar-toggler{
+    color: #FFFFFF;
+    background-color:#222222 ;
+}
+.navbar-toggler:focus,
+.navbar-toggler:hover {
+    outline: none!important;
+    box-shadow: none!important;
 
-.navbar-toggler-icon {
-    color: #fff;
 }
 
+
+.navbar-toggler{
+    color: #222222;
+
+
+}
+@media (min-width: 992px) {
+    .navbar-expand-lg {
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+
+}
+
+@media (max-width: 991px) {
+    .navbar-nav {
+        margin: 0;
+        display: flex;
+        justify-content: space-between!important;
+    }
+    .menu-spam{
+        flex-grow: 1;
+    }
+    .navbar-toggler{
+        border: none;
+        display: flex;
+        align-items: center;
+    }
+
+    .first-navbar .menu-spam{
+        font-size: 15px;
+    }
+    li{
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+}
 .navbar-nav .nav-link {
     color: #fff;
 }
@@ -63,6 +112,8 @@ img{
     padding-right: 20px;
     padding-left: 20px;
 }
+
+
 
 /* Container */
 .container {
@@ -97,6 +148,11 @@ img{
     color:#222222;
     text-decoration: none;
     font-size:55px ;
+}
+@media screen and (max-width: 768px) {
+    .main-title {
+        font-size:30px;
+    }
 }
 
 .second-title {
@@ -135,12 +191,19 @@ img{
     background-image: url("image/nhgazette-hero.jpg");
 }
 
+
+
 /* Section3 */
 
 .section3 .container .text-center{
     margin: 0 173.3px;
     padding: 40px 35px;
 
+}
+.section3 img{
+    margin: 0 !important;
+    vertical-align: bottom;
+    height: auto;
 }
 
 .section3 .text-start-inside{
@@ -155,11 +218,12 @@ img{
 }
 .section3 .container-inside .col-lg-8 p{
     font-size: 14.3px!important;
+
 }
 
-.text-start-inside a {
+
+.text-start-inside a,time {
     font-size: 14.3px!important;
-    color: #00000080;
 }
 .container.text-start h2 {
     margin-top: 35px;
@@ -176,6 +240,11 @@ img{
 }
 .section5 p{
     font-size: 17.6px!important;
+}
+.section5 img{
+    height: auto;
+    max-width: 100%;
+    vertical-align: bottom;
 }
 
 /* Section6 */
